@@ -6,33 +6,53 @@ using namespace std;
 #define MOD 1000000007
 #define tc(t) int t; cin >> t; while (t--)
 
-int solve(int i, int j, int arr[], vector<vector<int>> &dp){
-    if(i==j){
-        return 0;
+//O(n^2) Approach
+
+int find_lis(const vector<int> &a) {
+    int lis = 0;
+    vector<int> dp(a.size(), 1);
+    for (int i = 0; i < a.size(); i++) {
+        for (int j = 0; j < i; j++) {
+            if (a[j] < a[i]) { dp[i] = max(dp[i], dp[j] + 1); }
+        }
+        lis = max(lis, dp[i]);
     }
-    
-    if(dp[i][j]!=-1) return dp[i][j];
-    int mini = 1e9;
-    for(int k=i;k<j;k++){
-        mini = min(mini, f(i,k,arr,dp) + f(k+1,j,arr,dp) + arr[i-1]*arr[k]*arr[j]);
-    }
-    
-    return dp[i][j] = mini;
+    return lis;
 }
 
-class Solution{
-public:
-    int matrixMultiplication(int N, int arr[])
-    {
-        int i = 1;
-        int j = N-1;
-        vector<vector<int>> dp(n+1, vector<int>(n+1,-1));
-        
-        return solve(i,j,arr,dp);
-    }
-};
  
 int  main() {
+    make_it_fast;
+    int n;
+    cin>>n;
+    vector<int> v(n);
+ 
+    for(auto &x: v){
+        cin>>x;
+    }
+    
+    //O(nlogn) Approach
 
+    vector<int> dp(n+1,1e9);
+    dp[0] = -1e9;
+ 
+    for(int i=0;i<n;i++){
+        int l = upper_bound(dp.begin(),dp.end(),v[i]) - dp.begin();
+        if(dp[l-1]<v[i] && v[i]<dp[l]){
+            dp[l] = v[i];
+        }
+    }
+ 
+    int ans = 0;
+    print(dp);
+    cout<<"\n";
+ 
+    for(int l=0;l<=n;l++){
+        if(dp[l]<1e9){
+            ans = l;
+        }
+    }
+ 
+    cout<<ans<<"\n";
  
 }
