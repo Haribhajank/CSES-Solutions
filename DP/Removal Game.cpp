@@ -7,6 +7,8 @@ using namespace std;
 #define tc(t) int t; cin >> t; while (t--)
 #define all(x) (x).begin(),(x).end()
 #define inf 1e9
+
+
  
 signed  main() {
     make_it_fast;
