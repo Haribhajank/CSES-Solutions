@@ -9,19 +9,23 @@ Below is a snapshot of the categories and the number of problems I've solved in 
 
 ### 🧩 Problem Sections:
 
-| 📂 Section             | 🔢 Solved Problems |
-|------------------------|--------------------|
-| 🔍 Sorting and Searching | XX               |
-| 📈 Dynamic Programming    | XX               |
-| 🌐 Graphs                 | XX               |
-| 🌳 Trees                  | XX               |
+| 📂 Section               | 🔢 Solved Problems |
+|--------------------------|--------------------|
+| 🌱 Introductory          | XX / XX           |
+| 🔍 Sorting and Searching | 27 / 35           |
+| 📈 Dynamic Programming    | 17 / 19           |
+| 🌐 Graphs                 | 14 / 36           |
+| 🌳 Trees                  | 10 / 16           |
+| 🔤 Strings               | 0 / 17           |
+| 📊 Range Queries         | 0 / 19          |
+| 📐 Geometry              | 0 / 7           |
 
 # 🤝 Contributing
 
 If you'd like to collaborate, feel free to:
 
-## 🔄 Suggest optimizations or improvements to my solutions.
-## 🚀 Add new solutions for unsolved problems to help complete the set.
+🔄 Suggest optimizations or improvements to my solutions.
+🚀 Add new solutions for unsolved problems to help complete the set.
 Your contributions are welcome!
 
 # 📜 License
