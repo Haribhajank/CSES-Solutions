@@ -11,14 +11,10 @@ Below is a snapshot of the categories and the number of problems I've solved in 
 
 | 📂 Section               | 🔢 Solved Problems |
 |--------------------------|--------------------|
-| 🌱 Introductory          | 8 / 19           |
-| 🔍 Sorting and Searching | 27 / 35           |
-| 📈 Dynamic Programming    | 17 / 19           |
-| 🌐 Graphs                 | 14 / 36           |
-| 🌳 Trees                  | 10 / 16           |
-| 🔤 Strings               | 0 / 17           |
-| 📊 Range Queries         | 0 / 19          |
-| 📐 Geometry              | 0 / 7           |
+| 🌱 Sorting&Searching          | 25 / 35           |
+| 🌱 DP          | 18 / 19           |
+| 🌱 Graphs          | 13 / 36           |
+| 🌱 Trees          | 10 / 16           |
 
 # 🤝 Contributing
 
