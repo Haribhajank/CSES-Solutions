@@ -3,7 +3,7 @@ name: Update README with Solved Counts
 on:
   push:
     branches:
-      - main  # Run on pushes to main branch
+      - master  # Run on pushes to main branch
   schedule:
     - cron: "0 0 * * *"  # Optionally run daily at midnight
 
