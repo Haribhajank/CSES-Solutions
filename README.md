@@ -11,7 +11,7 @@ Below is a snapshot of the categories and the number of problems I've solved in 
 
 | 📂 Section               | 🔢 Solved Problems |
 |--------------------------|--------------------|
-| 🌱 Introductory          | XX / XX           |
+| 🌱 Introductory          | 8 / 19           |
 | 🔍 Sorting and Searching | 27 / 35           |
 | 📈 Dynamic Programming    | 17 / 19           |
 | 🌐 Graphs                 | 14 / 36           |
