@@ -2,14 +2,14 @@ import os
 
 # Define folders for each category and the total problems in each
 categories = {
-    "Introductory": ("Introductory", 19),  # Replace with actual total count
-    "Sorting and Searching": ("Sorting_and_Searching", 35),
-    "Dynamic Programming": ("Dynamic_Programming", 19),
+    #"Introductory": ("Introductory", 19),  # Replace with actual total count
+    "Sorting&Searching": ("Sorting&Searching", 35),
+    "DP": ("DP", 19),
     "Graphs": ("Graphs", 36),
     "Trees": ("Trees", 16),
-    "Strings": ("Strings", 17),  # Replace with actual total count
-    "Range Queries": ("Range_Queries", 19),  # Replace with actual total count
-    "Geometry": ("Geometry", 7)  # Replace with actual total count
+    #"Strings": ("Strings", 17),  # Replace with actual total count
+    #"Range Queries": ("Range_Queries", 19),  # Replace with actual total count
+    #"Geometry": ("Geometry", 7)  # Replace with actual total count
 }
 
 # Function to count solutions in each category
