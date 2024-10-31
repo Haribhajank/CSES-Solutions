@@ -21,7 +21,7 @@ jobs:
         python-version: "3.x"
 
     - name: Run count_solutions.py
-      run: python count_solutions.py
+      run: python .github/scripts/count_solutions.py
 
     - name: Commit and push changes
       run: |
