@@ -25,6 +25,7 @@ Below is a snapshot of the categories and the number of problems I've solved in 
 If you'd like to collaborate, feel free to:
 
 🔄 Suggest optimizations or improvements to my solutions.
+
 🚀 Add new solutions for unsolved problems to help complete the set.
 Your contributions are welcome!
 
