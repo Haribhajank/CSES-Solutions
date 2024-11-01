@@ -13,7 +13,7 @@ Below is a snapshot of the categories and the number of problems I've solved in 
 |--------------------------|--------------------|
 | 🌱 Introductory Problems          | 0 / 19           |
 | 🌱 Sorting&Searching          | 25 / 35           |
-| 🌱 DP          | 18 / 19           |
+| 🌱 DP          | 16 / 19           |
 | 🌱 Graphs          | 13 / 36           |
 | 🌱 Trees          | 10 / 16           |
 | 🌱 Strings          | 0 / 17           |
